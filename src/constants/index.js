@@ -13,18 +13,15 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    nestjs,
     carrent,
     jobit,
     tripguide,
     threejs,
     seFactoryIcon,
-    whiteStorkIcon
+    whiteStorkIcon,
+    postgresql
   } from "../assets";
   
   export const navLinks = [
@@ -95,6 +92,10 @@ import {
       icon: nodejs,
     },
     {
+      name: "Nest JS",
+      icon: nestjs,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -107,8 +108,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "postgresql",
+      icon: postgresql,
     },
     {
       name: "docker",
