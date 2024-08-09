@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    seFactoryIcon,
+    whiteStorkIcon
   } from "../assets";
   
   export const navLinks = [
@@ -113,61 +115,99 @@ import {
       icon: docker,
     },
   ];
-  
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+      company_name: "White Stork",
+      icon: whiteStorkIcon, // Assuming you have an icon for White Stork
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023 - February 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed as a full-stack developer in a collaborative team, utilizing VueJs, NestJs, and NocoDB.",
+        "Achieved a 60% increase in the speed of software development process by understanding and customizing NocoDB's open-source code to align with business requirements.",
+        "Collaborated with a team on an existing project to add new features and functionalities following domain-driven design principles based on customer requirements.",
+        "Enhanced old code characterized by advanced and complex SQL queries into NestJs, adhering to clean code principles.",
+        "Optimized database schema within a three-week timeframe, resulting in a notable reduction in reported client bugs, reducing query execution time by 40%, and enhancing application performance.",
+        "Skilled in Docker for streamlining the deployment process and facilitating seamless collaboration among development teams.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "FSW Bootcamp - Internship",
+      company_name: "SE Factory",
+      icon: seFactoryIcon, // Assuming you have an icon for SE Factory
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Intensive full stack web development program covering cloud architecture, front and back-end development, source control, and web application security over 14 weeks of lectures, workshops and projects.",
+        "Developed a home automation web application utilizing IoT technology to remotely control internet-connected electronic devices at home, with ReactJs for the frontend and Laravel for the backend.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Foundations of Computer Science Program",
+      company_name: "SE Factory",
+      icon: seFactoryIcon, // Assuming you have an icon for SE Factory
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Intensive foundation of computer science program covering foundational concepts of Computer Science using Python, complexity analysis, data structures, algorithms over 4 weeks of lectures.",
       ],
     },
   ];
+  
+  // const experiences = [
+  //   {
+  //     title: "React.js Developer",
+  //     company_name: "Starbucks",
+  //     icon: starbucks,
+  //     iconBg: "#383E56",
+  //     date: "March 2020 - April 2021",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "React Native Developer",
+  //     company_name: "Tesla",
+  //     icon: tesla,
+  //     iconBg: "#E6DEDD",
+  //     date: "Jan 2021 - Feb 2022",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Web Developer",
+  //     company_name: "Shopify",
+  //     icon: shopify,
+  //     iconBg: "#383E56",
+  //     date: "Jan 2022 - Jan 2023",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Full stack Developer",
+  //     company_name: "Meta",
+  //     icon: meta,
+  //     iconBg: "#E6DEDD",
+  //     date: "Jan 2023 - Present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  // ];
   
   const testimonials = [
     {
