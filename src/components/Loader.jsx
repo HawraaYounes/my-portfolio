@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Html } from '@react-three/drei';
 
-const Loader = () => {
+const CanvasLoader = () => {
   return (
-    <div>Loader</div>
-  )
+    <Html center>
+      <div>Loader</div>
+    </Html>
+  );
 }
 
-export default Loader
+export default CanvasLoader;
