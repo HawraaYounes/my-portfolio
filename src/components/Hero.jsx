@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto  items-center justify-center">
       <div
-        className={`${styles.paddingX}   mt-5 w-full flex flex-row text-center items-stretch`}
+        className={`${styles.paddingX} absolute top-[60px]  mt-5 w-full flex flex-row text-center items-stretch`}
       >
         <div
           id="line-div"
@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
           Turning Innovative Ideas into Dynamic <span className="text-[#915eff]">Full-Stack</span> Solutions
           </h1>
-          <p className={`${styles.heroSubText} mt-3 text-white-100 `}>
+          <p className={`${styles.heroSubText} mt-5 text-white-100 `}>
             Hi, I'm Hawraa. I develop user interfaces and Full Stack Web Apps
           </p>
         </div>
