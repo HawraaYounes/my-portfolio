@@ -33,8 +33,8 @@ import whiteStorkIcon from "./company/whiteStorkIcon.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import hiLink from "./hi-link.PNG";
-import nikeApp from "./nike-app.PNG";
+import hiLink from "./hi-link.png";
+import nikeApp from "./nike-app.png";
 
 export {
   logo,
