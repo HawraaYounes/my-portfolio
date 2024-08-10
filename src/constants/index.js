@@ -3,7 +3,16 @@ import {
   backend,
   creator,
   web,
-  javascript,
+  
+  tripguide,
+ 
+  seFactoryIcon,
+  whiteStorkIcon,
+ 
+  hiLink,
+  nikeApp,
+} from "../assets";
+import {javascript,
   typescript,
   html,
   css,
@@ -15,17 +24,8 @@ import {
   git,
   docker,
   nestjs,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
-  seFactoryIcon,
-  whiteStorkIcon,
-  postgresql,
-  hiLink,
-  nikeApp,
-} from "../assets";
-
+postgresql} from '../../public'
 export const navLinks = [
   {
     id: "about",
