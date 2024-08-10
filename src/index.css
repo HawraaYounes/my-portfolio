@@ -126,6 +126,16 @@
   transform: translateZ(0);
 }
 
+/* Add this to your global CSS file or a specific stylesheet */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {

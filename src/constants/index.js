@@ -11,8 +11,7 @@ import {
  
   hiLink,
   nikeApp,
-} from "../assets";
-import {javascript,
+  javascript,
   typescript,
   html,
   css,
@@ -25,7 +24,9 @@ import {javascript,
   docker,
   nestjs,
   threejs,
-postgresql} from '../../public'
+postgresql
+} from "../assets";
+
 export const navLinks = [
   {
     id: "about",
