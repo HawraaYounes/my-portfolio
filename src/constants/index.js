@@ -225,7 +225,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: nikeApp,
     source_code_link: "https://github.com/",
   },
   {
