@@ -35,6 +35,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import hiLink from "./hi-link.png";
 import nikeApp from "./nike-app.png";
+import CV from "./Hawraa_Younes_CV.pdf"
 
 export {
   logo,
@@ -70,5 +71,6 @@ export {
   seFactoryIcon,
   whiteStorkIcon,
   hiLink,
-  nikeApp
+  nikeApp,
+  CV
 };

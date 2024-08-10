@@ -1,10 +1,10 @@
 import { styles } from "../styles";
-
+import { CV } from "../assets";
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto  items-center justify-center">
+    <section className="relative w-full h-screen mx-auto flex items-center justify-center">
       <div
-        className={`${styles.paddingX} absolute top-[60px]  mt-5 w-full flex flex-row text-center items-stretch`}
+        className={`${styles.paddingX} absolute top-[100px] mt-5 w-full flex flex-row text-center items-stretch`}
       >
         <div
           id="line-div"
@@ -20,11 +20,21 @@ const Hero = () => {
           className="flex flex-col flex-1 w-full items-center justify-center"
         >
           <h1 className={`${styles.heroHeadText} text-white`}>
-          Turning Innovative Ideas into Dynamic <span className="text-[#915eff]">Full-Stack</span> Solutions
+            Turning Innovative Ideas into Dynamic{" "}
+            <span className="text-[#915eff]">Full-Stack</span> Solutions
           </h1>
-          <p className={`${styles.heroSubText} mt-5 text-white-100 `}>
+          <p className={`${styles.heroSubText} mt-5 text-white-100`}>
             Hi, I'm Hawraa. I develop user interfaces and Full Stack Web Apps
           </p>
+
+          <button
+            type="submit"
+            className="bg-[#915eff] py-4 px-12 mt-9 outline-none w-fit text-white font-bold shadow-md shadow-violet-700 rounded-xl"
+          >
+            <a href={CV} download="Hawraa_Younes_CV.pdf">
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
     </section>
