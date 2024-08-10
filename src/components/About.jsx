@@ -49,7 +49,7 @@ const About = () => {
       >
         I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, NestJs, Node.js,
-        ExpressJs, and TypeScript. I'm a quick learner and collaborate closely
+        ExpressJs, and Laravel. I'm a quick learner and collaborate closely
         with clients to create efficient, scalable, and user-friendly solutions
         that solve real-world problems. Let's work together to bring your ideas
         to life!

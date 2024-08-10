@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex items-center justify-center">
       <div
-        className={`${styles.paddingX} absolute top-[100px] mt-5 w-full flex flex-row text-center items-stretch`}
+        className={`${styles.paddingX} absolute top-[120px] mt-5 w-full flex flex-row text-center items-stretch`}
       >
         <div
           id="line-div"
