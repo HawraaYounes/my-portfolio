@@ -10,6 +10,7 @@ import {
   nikeApp,
   shippingApp,
   spotifyApp,
+  quizApp,
   javascript,
   typescript,
   html,
@@ -161,7 +162,7 @@ const projects = [
   {
     name: "Hi Link",
     description:
-      "A landing page for the Nike app, built using ReactJS and TailwindCSS. It Showcase my skills in creating user interfaces and ensuring responsiveness across various devices.",
+      "A fully responsive travel camping landing page built using React.js, Next.js 13, and Tailwind CSS. It features a modern, sleek UI/UX designed to offer an optimal browsing experience across various devices and screen sizes.",
     tags: [
       {
         name: "react",
@@ -201,25 +202,21 @@ const projects = [
     source_code_link: "https://github.com/HawraaYounes/shipping-app",
   },
   {
-    name: "Trip Guide",
+    name: "Nike",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A landing page for the Nike app, built using ReactJS and Tailwind CSS. It aims to showcase my skills in frontend development, particularly in creating dynamic user interfaces and ensuring responsiveness across various devices.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nikeApp,
+    source_code_link: "https://github.com/HawraaYounes/nike-app",
   },
   {
     name: "Spotify Artist Search",
@@ -241,6 +238,23 @@ const projects = [
     ],
     image: spotifyApp,
     source_code_link: "https://github.com/HawraaYounes/SpotifySearcher",
+  },
+  {
+    name: "React Quiz App",
+    description:
+      "A ReactJS quiz app that offers an interactive platform for solving multiple-choice questions and viewing results. It highlights my skills in frontend development, dynamic UI creation, and state management with React hooks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quizApp,
+    source_code_link: "https://github.com/HawraaYounes/quiz-app",
   },
 ];
 
