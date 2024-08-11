@@ -88,7 +88,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
-      <div className="w-full flex">
+      <div className="w-full flex flex-col">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -99,6 +99,10 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
+
+        <p className="mt-5 text-secondary text-[14px]">
+          <span className="text-[#915eff] font-semibold">Note:</span> Click on the GitHub icon at the top right of each project card to view the project's GitHub repository.
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
