@@ -3,14 +3,13 @@ import {
   backend,
   creator,
   web,
-  
   tripguide,
- 
   seFactoryIcon,
   whiteStorkIcon,
- 
   hiLink,
   nikeApp,
+  shippingApp,
+  spotifyApp,
   javascript,
   typescript,
   html,
@@ -24,7 +23,7 @@ import {
   docker,
   nestjs,
   threejs,
-postgresql
+  postgresql,
 } from "../assets";
 
 export const navLinks = [
@@ -123,7 +122,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "White Stork",
-    icon: whiteStorkIcon, // Assuming you have an icon for White Stork
+    icon: whiteStorkIcon,
     iconBg: "#383E56",
     date: "June 2023 - February 2024",
     points: [
@@ -138,7 +137,7 @@ const experiences = [
   {
     title: "FSW Bootcamp - Internship",
     company_name: "SE Factory",
-    icon: seFactoryIcon, // Assuming you have an icon for SE Factory
+    icon: seFactoryIcon,
     iconBg: "#E6DEDD",
     date: "August 2022 - December 2022",
     points: [
@@ -149,40 +148,12 @@ const experiences = [
   {
     title: "Foundations of Computer Science Program",
     company_name: "SE Factory",
-    icon: seFactoryIcon, // Assuming you have an icon for SE Factory
+    icon: seFactoryIcon,
     iconBg: "#383E56",
     date: "July 2022 - August 2022",
     points: [
       "Intensive foundation of computer science program covering foundational concepts of Computer Science using Python, complexity analysis, data structures, algorithms over 4 weeks of lectures.",
     ],
-  },
-];
-
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -209,25 +180,25 @@ const projects = [
     source_code_link: "https://github.com/HawraaYounes/hi-link",
   },
   {
-    name: "Job IT",
+    name: "Shipping App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This project is a shipping application built using ReactJS for the frontend and NodeJS (ExpressJs) with Sequelize ORM for the backend. The main objective of this app is to provide an intuitive and responsive interface for managing shipments. ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tawilwind",
         color: "pink-text-gradient",
       },
     ],
-    image: nikeApp,
-    source_code_link: "https://github.com/",
+    image: shippingApp,
+    source_code_link: "https://github.com/HawraaYounes/shipping-app",
   },
   {
     name: "Trip Guide",
@@ -250,6 +221,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Spotify Artist Search",
+    description:
+      "This ReactJS Spotify app lets users search artists, view album details, and explore discographies, highlighting my skills in dynamic, responsive UI and API integration.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SpotifyAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotifyApp,
+    source_code_link: "https://github.com/HawraaYounes/SpotifySearcher",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
