@@ -179,11 +179,12 @@ const projects = [
     ],
     image: hiLink,
     source_code_link: "https://github.com/HawraaYounes/hi-link",
+    live_demo_link: "https://hi-link-seven.vercel.app/", 
   },
   {
     name: "Shipping App",
     description:
-      "This project is a shipping application built using ReactJS for the frontend and NodeJS (ExpressJs) with Sequelize ORM for the backend. The main objective of this app is to provide an intuitive and responsive interface for managing shipments. ",
+      "This project is a shipping application built using ReactJS for the frontend and NodeJS (ExpressJs) with Sequelize ORM for the backend. The main objective of this app is to provide an intuitive and responsive interface for managing shipments.",
     tags: [
       {
         name: "react",
@@ -200,6 +201,7 @@ const projects = [
     ],
     image: shippingApp,
     source_code_link: "https://github.com/HawraaYounes/shipping-app",
+    live_demo_link: "https://drive.google.com/file/d/1SijnA-ftL2o-Ane8hXO_7rDhcnvlN9xB/view?usp=sharing"
   },
   {
     name: "Nike",
@@ -217,6 +219,7 @@ const projects = [
     ],
     image: nikeApp,
     source_code_link: "https://github.com/HawraaYounes/nike-app",
+    live_demo_link: "https://nike-app-ochre.vercel.app/"
   },
   {
     name: "Spotify Artist Search",
@@ -238,6 +241,7 @@ const projects = [
     ],
     image: spotifyApp,
     source_code_link: "https://github.com/HawraaYounes/SpotifySearcher",
+    live_demo_link: "https://drive.google.com/file/d/1TR0JOXqnOQ4PbaDVFlv0Lt7zxaxD9zzG/view?usp=sharing"
   },
   {
     name: "React Quiz App",
@@ -255,7 +259,9 @@ const projects = [
     ],
     image: quizApp,
     source_code_link: "https://github.com/HawraaYounes/quiz-app",
+    live_demo_link: "https://quiz-app-hawraa-younes-projects.vercel.app/"
   },
 ];
+
 
 export { services, technologies, experiences, projects };

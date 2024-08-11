@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -61,6 +62,18 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+
+        {/* New "View Project" Link */}
+        <div className="mt-5">
+          <a
+            href={live_demo_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white underline hover:text-[#915eff] font-poppins"
+          >
+            View Project
+          </a>
         </div>
       </Tilt>
     </motion.div>
