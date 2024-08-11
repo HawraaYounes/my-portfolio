@@ -126,15 +126,32 @@
   transform: translateZ(0);
 }
 
-/* Add this to your global CSS file or a specific stylesheet */
-.scrollbar-hidden::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+/* .......................... */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.scrollbar-hidden {
-  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer and Edge */
-  scrollbar-width: none; /* Hide scrollbar in Firefox */
+.scroll-container {
+  position: relative;
+  overflow-x: hidden;
+  width: 100%;
 }
+
+.scroll-content {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.scroll-content > div {
+  display: inline-block;
+}
+/* .......................... */
 
 @keyframes mulShdSpin {
   0%,
