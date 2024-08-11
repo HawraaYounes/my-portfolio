@@ -24,13 +24,13 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full flex flex-col min-h-[500px]" // Set minimum height and use flex column layout
       >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-fill rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -41,18 +41,18 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-1/2 h-1/2 object-cover"
               />
             </div>
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="flex-grow mt-5"> {/* Allow this section to grow */}
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-auto flex flex-wrap gap-2"> {/* Pushes the tags to the bottom */}
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
