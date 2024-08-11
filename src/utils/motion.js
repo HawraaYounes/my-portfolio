@@ -19,8 +19,8 @@ export const textVariant = (delay) => {
   export const fadeIn = (direction, type, delay, duration) => {
     return {
       hidden: {
-        x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
-        y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
+        x: direction === "left" ? 100 : direction === "right" ? -100 : 1,
+        y: direction === "up" ? 100 : direction === "down" ? -100 : 1,
         opacity: 1,
       },
       show: {
@@ -39,10 +39,10 @@ export const textVariant = (delay) => {
   
   export const zoomIn = (delay, duration) => {
     return {
-      hidden: {
-        scale: 0,
-        opacity: 1,
-      },
+      // hidden: {
+      //   scale: 0,
+      //   opacity: 1,
+      // },
       show: {
         scale: 1,
         opacity: 1,
