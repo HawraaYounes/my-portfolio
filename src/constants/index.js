@@ -182,7 +182,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: reduxCart, 
+    image: reduxCart , 
     source_code_link: "https://github.com/HawraaYounes/redux-cart",
     live_demo_link: "https://redux-cart-red.vercel.app/",
   },
