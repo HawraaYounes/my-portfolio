@@ -9,6 +9,7 @@ import {
   hiLink,
   nikeApp,
   shippingApp,
+  reduxCart,
   spotifyApp,
   quizApp,
   javascript,
@@ -159,6 +160,32 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Redux Cart",
+    description:
+      "A simple cart application built using ReactJS and Redux with Redux Toolkit. This app demonstrates effective state management in React, focusing on the power of Redux for handling complex state interactions.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: reduxCart, 
+    source_code_link: "https://github.com/HawraaYounes/redux-cart",
+    live_demo_link: "https://redux-cart-red.vercel.app/",
+  },
   {
     name: "Hi Link",
     description:
