@@ -40,7 +40,7 @@ import spotifyApp from "./spotify-app.png"
 import shippingApp from "./shipping-app.png";
 import reduxCart from "./redux-cart.png";
 import quizApp from "./quiz-app.png";
-import CV from "./Hawraa_Younes_CV.pdf"
+import CV from "./Hawraa Younes Resume.pdf"
 
 export {
   logo,
