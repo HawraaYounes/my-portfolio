@@ -3,7 +3,6 @@ import {
   backend,
   creator,
   web,
-  tripguide,
   seFactoryIcon,
   whiteStorkIcon,
   lightBulb,
