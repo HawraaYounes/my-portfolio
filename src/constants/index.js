@@ -6,6 +6,7 @@ import {
   tripguide,
   seFactoryIcon,
   whiteStorkIcon,
+  lightBulb,
   hiLink,
   nikeApp,
   shippingApp,
@@ -120,20 +121,31 @@ const technologies = [
     icon: docker,
   },
 ];
+
 const experiences = [
+  {
+    title: "Professional Development",
+    company_name: "",
+    icon: lightBulb, 
+    iconBg: "#383E56",
+    date: "March 2024 – Present",
+    points: [
+      "Learned Redux and Redux Toolkit for advanced state management in React applications.",
+      "Acquired proficiency in React Query for efficient data caching and synchronization.",
+      "Mastered ReactJS, including hooks, custom hooks, form validation, React Context API, and API data fetching, applying these skills across multiple projects.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "White Stork",
     icon: whiteStorkIcon,
     iconBg: "#383E56",
-    date: "June 2023 - February 2024",
+    date: "June 2023 – February 2024",
     points: [
-      "Contributed as a full-stack developer in a collaborative team, utilizing VueJs, NestJs, and NocoDB.",
-      "Achieved a 60% increase in the speed of software development process by understanding and customizing NocoDB's open-source code to align with business requirements.",
-      "Collaborated with a team on an existing project to add new features and functionalities following domain-driven design principles based on customer requirements.",
-      "Enhanced old code characterized by advanced and complex SQL queries into NestJs, adhering to clean code principles.",
-      "Optimized database schema within a three-week timeframe, resulting in a notable reduction in reported client bugs, reducing query execution time by 40%, and enhancing application performance.",
-      "Skilled in Docker for streamlining the deployment process and facilitating seamless collaboration among development teams.",
+      "Collaborated within a team to customize NocoDB's open-source code, developing solutions that aligned with business rules, while utilizing VueJs, NestJs, and NocoDB.",
+      "Participated with a team to enhance an existing project by adding new features and updating functionalities, applying domain-driven design principles in response to customer requirements.",
+      "Refactored legacy code with complex raw SQL queries into NestJs and TypeScript, adhering to clean code principles.",
+      "Optimized the database schema by adding indexing, fixing foreign keys, and using TypeORM relations, reducing query execution time by 40%, eliminating complex joins, and improving performance.",
     ],
   },
   {
@@ -141,7 +153,7 @@ const experiences = [
     company_name: "SE Factory",
     icon: seFactoryIcon,
     iconBg: "#E6DEDD",
-    date: "August 2022 - December 2022",
+    date: "August 2022 – December 2022",
     points: [
       "Intensive full stack web development program covering cloud architecture, front and back-end development, source control, and web application security over 14 weeks of lectures, workshops and projects.",
       "Developed a home automation web application utilizing IoT technology to remotely control internet-connected electronic devices at home, with ReactJs for the frontend and Laravel for the backend.",
@@ -152,7 +164,7 @@ const experiences = [
     company_name: "SE Factory",
     icon: seFactoryIcon,
     iconBg: "#383E56",
-    date: "July 2022 - August 2022",
+    date: "July 2022 – August 2022",
     points: [
       "Intensive foundation of computer science program covering foundational concepts of Computer Science using Python, complexity analysis, data structures, algorithms over 4 weeks of lectures.",
     ],

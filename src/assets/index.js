@@ -29,6 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import seFactoryIcon from "./company/seFactoryIcon.png";
 import whiteStorkIcon from "./company/whiteStorkIcon.png";
+import lightBulb from "./company/light-bulb.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -74,6 +75,7 @@ export {
   tripguide,
   seFactoryIcon,
   whiteStorkIcon,
+  lightBulb,
   hiLink,
   nikeApp,
   shippingApp,
