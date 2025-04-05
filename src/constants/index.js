@@ -125,13 +125,14 @@ const experiences = [
   {
     title: "Professional Development",
     company_name: "",
-    icon: lightBulb, 
+    icon: lightBulb,
     iconBg: "#383E56",
     date: "March 2024 – Present",
     points: [
+      "Developing a full-stack e-commerce web application using ReactJS with Redux for state management, React Query for caching, and Tailwind CSS for styling on the frontend; building the backend with NestJS, integrating Redis for caching, and using Swagger for API documentation.",
       "Learned Redux and Redux Toolkit for advanced state management in React applications.",
       "Acquired proficiency in React Query for efficient data caching and synchronization.",
-      "Mastered ReactJS, including hooks, custom hooks, form validation, React Context API, and API data fetching, applying these skills across multiple projects.",
+      "Mastered ReactJS, including hooks, custom hooks, form validation, React Context API, and API data fetching, applying these skills across multiple projects."
     ],
   },
   {
