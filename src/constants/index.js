@@ -9,7 +9,7 @@ import {
   hiLink,
   nikeApp,
   shippingApp,
-  reduxCart,
+  furniroApp,
   spotifyApp,
   quizApp,
   javascript,
@@ -172,9 +172,9 @@ const experiences = [
 
 const projects = [
   {
-    name: "Redux Cart",
+    name: "Furniro Ecommerce",
     description:
-      "A simple cart application built using ReactJS and Redux with Redux Toolkit. This app demonstrates effective state management in React, focusing on the power of Redux for handling complex state interactions.",
+      "This is a full-stack e-commerce project for a furniture store, built using NestJS, Redis, Swagger, ReactJS, Redux, TypeScript. The project is still in progress, with features being developed and reviewed.",
     tags: [
       {
         name: "react",
@@ -185,17 +185,21 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "redux-toolkit",
+        name: "nestjs",
         color: "pink-text-gradient",
       },
       {
-        name: "firebase",
+        name: "swagger",
         color: "orange-text-gradient",
       },
+      {
+        name: "redis",
+        color: "blue-text-gradient",
+      },
     ],
-    image: reduxCart , 
-    source_code_link: "https://github.com/HawraaYounes/redux-cart",
-    live_demo_link: "https://redux-cart-red.vercel.app/",
+    image: furniroApp, 
+    source_code_link: "https://github.com/HawraaYounes/furniro-ecommerce",
+    live_demo_link: "https://github.com/HawraaYounes/furniro-ecommerce",
   },
   {
     name: "Hi Link",

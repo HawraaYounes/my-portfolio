@@ -32,7 +32,7 @@ import hiLink from "./hi-link.png";
 import nikeApp from "./nike-app.png";
 import spotifyApp from "./spotify-app.png"
 import shippingApp from "./shipping-app.png";
-import reduxCart from "./redux-cart.png";
+import furniroApp from "./furniro.png";
 import quizApp from "./quiz-app.png";
 import CV from "./Hawraa Younes Resume.pdf"
 
@@ -66,7 +66,7 @@ export {
   hiLink,
   nikeApp,
   shippingApp,
-  reduxCart,
+  furniroApp,
   spotifyApp,
   quizApp,
   CV
