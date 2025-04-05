@@ -34,7 +34,7 @@ import spotifyApp from "./spotify-app.png"
 import shippingApp from "./shipping-app.png";
 import furniroApp from "./furniro.png";
 import quizApp from "./quiz-app.png";
-import CV from "./Hawraa Younes Resume.pdf"
+import CV from "./Hawraa_Younes_CV.pdf"
 
 export {
   logo,
